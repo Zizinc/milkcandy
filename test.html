@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奶糖感谢视频</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh; /* 最小高度为视口高度 */
+            background-image: url('melody.png'); /* 替换为你的PNG路径 */
+            background-size: cover; /* 或调整为固定尺寸，如 1920px 1080px */
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        /* 添加足够长的内容以触发滚动 */
+        .content {
+            padding: 50px;
+            min-height: 200vh; /* 让内容高度远超视口 */
+            text-align: center;
+        }
+		.video-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; /* 至少占满整个视口高度 */
+            padding: 20px;
+        }
+		video {
+            max-width: 80%; /* 自适应宽度 */
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+		.custom-text {
+            margin-top: 30px;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <!-- 视频嵌入 -->
+        <div width="720">
+			<script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/myclm4tu7l.js" async type="module"></script><style>wistia-player[media-id='myclm4tu7l']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/myclm4tu7l/swatch'); display: block; filter: blur(5px); padding-top:177.78%; }</style> <wistia-player media-id="myclm4tu7l" aspect="0.5625"></wistia-player>
+		</div>
+        
+    </div>
+</body>
+</html>
